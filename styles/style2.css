@@ -1,0 +1,26 @@
+.container-imoveis {
+    background-color: rgb(53, 150, 53);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.container-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 40px;
+}
+
+
+
+@media (max-width: 1056px) {
+    .container-card-item {
+        width: 350px;
+    }
+}
+@media (max-width: 818px) {
+    .container-card-item {
+        width: 380px;
+    }
+}

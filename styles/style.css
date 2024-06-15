@@ -58,6 +58,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 10px 0;
 }
 
 .ul-header {
@@ -141,11 +142,11 @@ div.vitor-img-container img {
     position: relative;
 }
 
-.cards > div > a.more-details {
+a.more-details {
     display: block;
     width: fit-content;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 20px;
     padding: 15px;
     border-bottom: 3px solid green;
     text-transform: uppercase;
@@ -313,6 +314,10 @@ footer > div > div:last-of-type {
     display: flex;
     flex-direction: column;
     gap: 30px;
+}
+
+#btn-mobile {
+    cursor: pointer;
 }
 
 
